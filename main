@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valerii Kostynskyi — Flutter Developer</title>
+  <meta name="description" content="CV of Valerii Kostynskyi, Flutter Developer" />
+  <style>
+    :root {
+      --text: #222;
+      --accent: #007aff;
+      --muted: #555;
+      --bg: #fff;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      letter-spacing: 0.04em;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 18px;
+      margin-top: 4px;
+    }
+    .contacts {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .contacts a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contacts a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .item {
+      margin-bottom: 16px;
+    }
+    .role {
+      font-weight: 600;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    ul {
+      margin: 6px 0 6px 20px;
+    }
+    li {
+      margin: 2px 0;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    @media print {
+      a { color: black; text-decoration: none; }
+      h2 { border: none; }
+      main { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Valerii Kostynskyi</h1>
+      <div class="subtitle">Flutter Developer</div>
+      <div class="contacts">
+        <div>Uzhhorod, Ukraine 🇺🇦</div>
+        <div><a href="mailto:valerii.kostynskyi@gmail.com">valerii.kostynskyi@gmail.com</a></div>
+        <div>
+          <a href="https://www.linkedin.com/in/valeriy-kostinskiy/">LinkedIn</a> ·
+          <a href="https://t.me/valerii_kostynskyi">Telegram</a>
+        </div>
+      </div>
+    </header>
+
+```
+<section class="section">
+  <h2>About Me</h2>
+  <p>Since 2020, I have gained extensive experience in commercial software development within both outsourcing and outstaffing models. I have worked independently and as part of multidisciplinary teams. My journey took me from being a developer under mentorship to becoming a mentor and Tech Lead. My goal is to broaden my expertise and deepen my skills in software development, going beyond mobile applications to deliver comprehensive technological solutions.</p>
+</section>
+
+<section class="section">
+  <h2>Technical Skills</h2>
+  <p><strong>Languages & Frameworks:</strong> Flutter, Dart</p>
+  <p><strong>Architecture & Principles:</strong> Clean Architecture, KISS, SOLID, OOP, Responsiveness</p>
+  <p><strong>State Management:</strong> BLoC, Provider, GetX</p>
+  <p><strong>Backend & API:</strong> REST API, GraphQL, Firebase</p>
+  <p><strong>Tools & Design:</strong> Figma, Photoshop, Visual Studio Code, Xcode</p>
+  <p><strong>CI/CD & Cloud:</strong> Firebase, Google Console, ClickUp, Slack</p>
+  <p><strong>Other:</strong> Cursor AI, Teamwork</p>
+</section>
+
+<section class="section">
+  <h2>Soft Skills</h2>
+  <p>Communicative · Mentorship · Responsible · Flexible · Competitive · Proactive · Client Communication · Lifelong Learner</p>
+</section>
+
+<section class="section">
+  <h2>Experience</h2>
+
+  <div class="item">
+    <div class="role">InAppo — Flutter Developer / Tech Lead</div>
+    <div class="meta">Kyiv, Ukraine | Oct 2023 – Present</div>
+    <ul>
+      <li>Grew from mid-level developer to team lead for small teams.</li>
+      <li>Managed projects from architecture and setup to release and maintenance.</li>
+      <li>Oversaw Upwork-based client projects, contributing to both technical delivery and sales.</li>
+      <li>Represented team expertise in client calls and helped secure long-term partnerships.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">NearCoast — Flutter Developer</div>
+    <div class="meta">Estonia | Oct 2021 – Oct 2023</div>
+    <ul>
+      <li>Joined as a mobile app developer and advanced to lead developer.</li>
+      <li>Delivered full-cycle apps from concept to App Store & Google Play release.</li>
+      <li>Mentored new developers, supported project managers, designers, and backend teams.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">DwareTeam — Web Developer</div>
+    <div class="meta">Lviv, Ukraine | Oct 2020 – Sep 2021</div>
+    <ul>
+      <li>SFCC B2C Front-End Engineer: HTML, CSS, jQuery.</li>
+      <li>Contributed to e-commerce projects as part of a distributed team.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Projects</h2>
+
+  <div class="item">
+    <div class="role">Project “Compte Eco” (Released in AppStore & Google Play)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 3 (PM, Front-End, Back-End)</li>
+      <li><strong>Description:</strong> Sustainable investment tool that offers daily returns while contributing to CO₂ reduction.</li>
+      <li><strong>Responsibilities:</strong> Implemented UI/UX from Figma, GraphQL integration, CI/CD automation.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, Provider, GraphQL Generator, Beamer, Figma, FLChart.</li>
+      <li><strong>Link:</strong> <a href="https://app.compte-eco.fr">app.compte-eco.fr</a></li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Project “MHP” (Corporate Internal App)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 5 (Backend, SAP, Mobile, Designer)</li>
+      <li><strong>Description:</strong> Internal suite of mobile apps for MHP agroholding employees.</li>
+      <li><strong>Responsibilities:</strong> iOS & Android dev with Zebra TC58 support, MSAL login, QR/barcode scanning, Dio interceptors, Crashlytics.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, GetX, Firebase, Figma, ClickUp, Lottie.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Project “Hubbub Polls” (Released in AppStore & Google Play)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 7</li>
+      <li><strong>Description:</strong> Polling and voting app for anonymous feedback.</li>
+      <li><strong>Responsibilities:</strong> Built cross-platform apps, implemented media uploads, subscriptions, and comments.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, GetX, Firebase, Figma.</li>
+      <li><strong>Link:</strong> <a href="https://apps.apple.com/ua/app/hubbub-polls/id1635985822?l=uk">App Store</a></li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Project MVP (IoT)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 3</li>
+      <li><strong>Description:</strong> Remote IoT management system for farm air conditioning.</li>
+      <li><strong>Responsibilities:</strong> Architecture, real-time control, PostgreSQL storage, graph visualization.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, BLoC, Firebase, PostgreSQL, Docker, FL Chart.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Internal Program for Truck Drivers (MVP)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 3</li>
+      <li><strong>Description:</strong> Android app for a U.S. trucking company for order tracking and driver monitoring.</li>
+      <li><strong>Responsibilities:</strong> Background geolocation, Hive sync, REST API, chat, connectivity checks.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, BLoC, REST API, Hive, Geolocator, BackgroundFetch.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Project MVP (Social Network)</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 12</li>
+      <li><strong>Description:</strong> Social platform for music, film, and art collaboration.</li>
+      <li><strong>Responsibilities:</strong> Developed mobile app from scratch, implemented chat, projects, investor modules.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, GetX, WebSocket, Firebase, Figma.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Pet Project — Bicycle Parking App</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer, PM, Designer | <strong>Team:</strong> 2</li>
+      <li><strong>Description:</strong> Mobile app for cyclists to find and rate safe parking spots.</li>
+      <li><strong>Responsibilities:</strong> Map UI, ratings, photos, social login (Google, Apple, Facebook).</li>
+      <li><strong>Stack:</strong> Flutter, Dart, BLoC, Firebase, Figma.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="role">Project Migration to Null Safety</div>
+    <ul>
+      <li><strong>Role:</strong> Flutter Developer | <strong>Team:</strong> 1</li>
+      <li><strong>Description:</strong> Migrated a 3-year-old restaurant guide app to null safety.</li>
+      <li><strong>Responsibilities:</strong> Refactored codebase, updated dependencies, verified App Store & Play Store builds.</li>
+      <li><strong>Stack:</strong> Flutter, Dart, Provider, Firebase, Algolia.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Education</h2>
+  <p><strong>Transcarpathian State University</strong><br />2005 – 2011 — Specialist, Software of Automated Systems</p>
+  <p><strong>Professional Lyceum</strong><br />2002 – 2005 — Accountant, Computer Operator</p>
+</section>
+
+<section class="section">
+  <h2>Courses</h2>
+  <ul>
+    <li><strong>Mobile Developer (2022)</strong> — Mentorship program with real project experience.</li>
+    <li><strong>Web Developer (2021)</strong> — Freelancer Lifestyle mentorship program.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Languages</h2>
+  <ul>
+    <li>English — Intermediate</li>
+    <li>Ukrainian — Native</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 Valerii Kostynskyi · Hosted on <a href="https://valerii-kostynskyi.github.io/valerii-kostynskyi-cv/">GitHub Pages</a></p>
+</footer>
+```
+
+  </main>
+</body>
+</html>
